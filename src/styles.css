@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.7px;
+}
+
+.ui {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  overflow: visible;
+}
+
+.streetA {
+  position: absolute;
+  top: 0.8vh;
+  right: 55%;
+  font-size: 13pt;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7),
+    -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+.streetB {
+  position: absolute;
+  top: 0.8vh;
+  left: 55%;
+  font-size: 13pt;
+  text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.7), 1px -1px 0 rgba(0, 0, 0, 0.7),
+    -1px 1px 0 rgba(0, 0, 0, 0.7), 1px 1px 0 rgba(0, 0, 0, 0.7);
+}
+
+.compass {
+  top: 0.2vh;
+  position: relative;
+  font-size: 11pt;
+  text-shadow: 0 0 2px black;
+}
+
+.compass-dir {
+  position: absolute;
+  top: 5vh;
+  width: 100%;
+  font-size: 12pt;
+  text-shadow: 0 0 2px black;
+}
+
+.compass-area {
+  position: absolute;
+  top: 7vh;
+  width: 100%;
+  font-size: 11pt;
+  text-shadow: 0 0 2px black;
+}
+
+.bar {
+  margin: 0 auto;
+  position: relative;
+  text-shadow: 0 0 1px black;
+  scale: 0.1;
+}
+
+.bar.needle {
+  top: -50px;
+  font-size: 20pt;
+  scale: 0.9;
+}
+
+.svg {
+  display: block;
+  width: 100%;
+  height: 80px;
+  font-size: 20pt;
+  transform: scale(1.2);
+}
